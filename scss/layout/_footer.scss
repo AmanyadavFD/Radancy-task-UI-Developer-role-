@@ -1,0 +1,36 @@
+@use "../base/variables" as *;
+.footer {
+  border-top: 1px solid #ddd;
+  padding: 30px 40px;
+
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+    .icon-box {
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px; // slight rounding like screenshot
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .legal-text {
+    font-size: 10px;
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .footer-links {
+    font-size: 10px;
+  }
+}

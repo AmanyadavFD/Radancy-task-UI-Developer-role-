@@ -1,0 +1,16 @@
+@use "../base/variables" as *;
+.info-banner {
+  background-color: $citizens-light-green;
+
+  .banner-header {
+    background-color: $citizens-green;
+    color: $white;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .banner-content {
+    padding: 30px 60px;
+    font-size: 13px;
+  }
+}

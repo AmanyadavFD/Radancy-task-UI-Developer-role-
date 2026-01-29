@@ -1,0 +1,27 @@
+@use "../base/variables" as *;
+.investment-section {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+
+  h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 30px;
+    font-size: 15px;
+  }
+
+  .cta-button {
+    background-color: $citizens-orange;
+    color: $white;
+    padding: 12px 30px;
+
+    &:hover {
+      background-color: $citizens-orange-hover;
+    }
+  }
+}

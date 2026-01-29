@@ -1,0 +1,44 @@
+@use "../base/variables" as *;
+.advantage-section {
+  padding: 40px 60px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .divider {
+    width: 50px;
+    height: 2px;
+    background-color: $citizens-green;
+    margin: 0 auto 50px;
+  }
+
+  .grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+
+    .border-left {
+      border-left: 1px solid #ddd;
+      padding-left: 40px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .advantage-section {
+    padding: 30px 20px;
+
+    .grid-2-col {
+      grid-template-columns: 1fr;
+      gap: 30px;
+
+      .border-left {
+        border-left: none; // remove border
+        padding-left: 0; // reset spacing
+        border-top: 1px solid #ddd; // optional (nice separation)
+        padding-top: 30px;
+      }
+    }
+  }
+}

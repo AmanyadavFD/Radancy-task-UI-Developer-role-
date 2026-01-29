@@ -1,0 +1,19 @@
+@use "../base/variables" as *;
+
+@media (max-width: 768px) {
+  .hero {
+    height: 250px;
+
+    .hero-overlay {
+      display: none;
+    }
+  }
+
+  .advantage-section .grid-2-col {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials {
+    flex-direction: column;
+  }
+}

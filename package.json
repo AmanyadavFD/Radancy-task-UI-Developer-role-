@@ -1,0 +1,14 @@
+{
+  "name": "natours-master",
+  "version": "1.0.0",
+  "description": "Randacy task ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --load-path=scss scss/main.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.97.3"
+  }
+}

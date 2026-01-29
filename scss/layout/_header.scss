@@ -1,0 +1,42 @@
+@use "../base/variables" as *;
+
+.header {
+  padding: 30px 40px;
+  background: $white;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    .logo-icon {
+      color: $citizens-green;
+      height: 24px;
+      width: 24px;
+    }
+
+    .logo-text {
+      color: $citizens-green;
+      font-size: 24px;
+      font-weight: bold;
+      max-width: 200px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+      span {
+        font-size: 12px;
+        vertical-align: top;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 25px 20px;
+
+    .logo {
+      justify-content: center;
+    }
+  }
+}
